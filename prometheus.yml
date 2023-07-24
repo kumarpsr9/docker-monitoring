@@ -7,3 +7,6 @@ scrape_configs:
   static_configs:
   - targets:
     - cadvisor:8080
+- job_name: 'docker-21'
+  static_configs:
+    - targets: ['10.30.1.21:9323']
